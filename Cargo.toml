@@ -14,7 +14,7 @@ exclude = ["/.github", "/examples", "/scripts"]
 
 [dependencies]
 tokio = "1.0"
-rustls = { git = "https://github.com/fortanix/rustls", tag = "ffdhe-r3", default-features = false }
+rustls = { git = "https://github.com/fortanix/rustls", tag = "ffdhe-r4", default-features = false }
 pki-types = { package = "rustls-pki-types", version = "1" }
 
 [features]
